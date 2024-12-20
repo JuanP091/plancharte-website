@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="http://127.0.0.1:3000/index.html" class="logo-link">
+            <img class="logo-img" src="img/Plancharthomelogo.png" alt="Home">
+        </a>
+        <img class="centered-image" src="img/planchapp.png" alt="Centered Image">
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li class="dropdown">
+                <button onclick="myFunction('dropdownAbout')" class="dropbtn">About</button>
+                <div id="dropdownAbout" class="dropdown-content">
+                    <a href="#" target="_blank">Link 12</a>
+                    <a href="#" target="_blank">Link 2</a>
+                    <a href="#" target="_blank">Link 3</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <button onclick="myFunction('dropdownServices')" class="dropbtn">Services/Servicios</button>
+                <div id="dropdownServices" class="dropdown-content">
+                    <a href="#" target="_blank">Tailoring</a>
+                    <a href="#" target="_blank">Delivery UNAVAILABLE ATM</a>
+                    <a href="#" target="_blank">Prices</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <button onclick="myFunction('dropdownConnect')" class="dropbtn">Connect/Connecta</button>
+                <div id="dropdownConnect" class="dropdown-content">
+                    <a href="https://www.facebook.com/profile.php?id=100063495881657" target="_blank">Facebook</a>
+                    <a href="https://www.instagram.com/planch_arte/" target="_blank">Instagram</a>
+                    <a href="https://www.tiktok.com/@planchaduria" target="_blank">TikTok</a>
+                    <a href="#" target="_blank">Whatsapp</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <button class="dropbtn" onclick="window.open('https://www.yelp.com/biz/planch-arte-mission', '_blank');">
+                    Rate us on Yelp!
+                </button>                
+            </li>
+        </ul>
+    </nav>
+    <div class = "middle-sec">
+
+    </div>
+    <div class="bottom-info">
+        <div class="hours">
+            <ul class="hour-list">
+                <li><strong>Horas de Operación:</strong></li> 
+                <li>Lunes: 8:00 AM - 6:00 PM</li>
+                <li>Martes: 8:00 AM - 6:00 PM</li>
+                <li>Miércoles: 8:00 AM - 6:00 PM</li>
+                <li>Jueves: 8:00 AM - 6:00 PM</li>
+                <li>Viernes: 8:00 AM - 6:00 PM</li>
+                <li>Sábado: 9:00 AM - 2:00 PM</li>
+                <li>Domingo: Cerrado</li>
+            </ul>
+
+            <ul class = "location-info">
+                <div class = "location-info-title">
+                Plancharte (Mission)
+                </div> 
+                <li> 1900 W Griffin Pkwy</li>
+                <li> Mission,TX 78572</li>
+                <li> (956) 897-0095</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
